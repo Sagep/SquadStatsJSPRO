@@ -320,6 +320,9 @@ class AddSquadDB extends Command {
 				user: data.guild.plugins.squad.db.user,
 				password: data.guild.plugins.squad.db.password,
 				database: data.guild.plugins.squad.db.database,
+				ssl: {
+       					rejectUnauthorized: false
+   				},
 			});
 		} catch (err) {
 			client.logger.log(err, "error");
