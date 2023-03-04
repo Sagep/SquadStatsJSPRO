@@ -1035,9 +1035,9 @@ class SquadStatsJSv3 extends Client {
 			user: guild.plugins.squad.db.user,
 			password: guild.plugins.squad.db.password,
 			database: guild.plugins.squad.db.database,     
-			ssl : {
+			ssl: {
        				rejectUnauthorized: false
-   				}
+   				},
 		});
 		return pool;
 	}
