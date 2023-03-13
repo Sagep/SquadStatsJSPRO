@@ -210,9 +210,9 @@ class Profile extends Command {
 				.addField(
 					":link: Links",
 					message.translate("misc:STATS_FOOTER", {
-						donateLink: "https://www.patreon.com/1stReconnaissanceBattalionSquad",
+						donateLink: "https://github.com/sponsors/11TStudio",
 						dashboardLink: data.config.dashboard.baseURL,
-						githubLink: "https://1strb.banesbots.com",
+						githubLink: "https://github.com/11TStudio",
 					})
 				)
 				.setColor(data.config.embed.color) // Sets the color of the embed
